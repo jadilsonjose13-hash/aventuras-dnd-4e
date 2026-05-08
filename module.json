@@ -1,7 +1,7 @@
 {
   "id": "aventuras-dnd-4e",
   "title": "Aventuras D&D 4e",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -121,6 +121,6 @@
   },
   "description": "",
   "url": "https://github.com/jadilsonjose13-hash/aventuras-dnd-4e",
-  "manifest": "",
-  "download": ""
+  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/aventuras-dnd-4e/refs/heads/main/module.json",
+  "download": "https://github.com/jadilsonjose13-hash/aventuras-dnd-4e/archive/refs/heads/main.zip"
 }
