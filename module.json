@@ -1,0 +1,126 @@
+{
+  "id": "aventuras-dnd-4e",
+  "title": "Aventuras D&D 4e",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Jadilson Santos",
+      "email": "jadilsonjose13@gmail.com",
+      "discord": "png_man",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "caracteristicas-de-criaturas",
+      "label": "Características de Criaturas",
+      "path": "packs/caracteristicas-de-criaturas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "aventuras",
+      "label": "Aventuras",
+      "path": "packs/aventuras",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "criaturas",
+      "label": "Criaturas",
+      "path": "packs/criaturas",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras",
+      "label": "Regras",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Aventuras D&D 4e",
+      "sorting": "a",
+      "color": "#cd2c1e",
+      "packs": [
+        "aventuras",
+        "regras"
+      ],
+      "folders": [
+        {
+          "name": "Criaturas",
+          "sorting": "m",
+          "color": "#b8271b",
+          "packs": [
+            "criaturas",
+            "caracteristicas-de-criaturas"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "livro-do-jogador-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-do-mestre-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-dos-monstros-2014",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "guia-do-aventureiro-para-a-costa-da-espada",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "",
+  "url": "https://github.com/jadilsonjose13-hash/aventuras-dnd-4e",
+  "manifest": "",
+  "download": ""
+}
