@@ -56,11 +56,11 @@
       "label": "Regras",
       "path": "packs/regras",
       "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
   ],
   "packFolders": [
@@ -119,7 +119,6 @@
       }
     ]
   },
-  "description": "",
   "url": "https://github.com/jadilsonjose13-hash/aventuras-dnd-4e",
   "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/aventuras-dnd-4e/refs/heads/main/module.json",
   "download": "https://github.com/jadilsonjose13-hash/aventuras-dnd-4e/archive/refs/heads/main.zip"
