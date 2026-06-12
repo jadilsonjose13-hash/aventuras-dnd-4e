@@ -1,7 +1,7 @@
 {
   "id": "aventuras-dnd-4e",
   "title": "Aventuras D&D 4e",
-  "version": "1.0.5.1",
+  "version": "1.0.6",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -61,6 +61,17 @@
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "tabelas",
+      "label": "Tabelas",
+      "path": "packs/tabelas",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -70,7 +81,8 @@
       "color": "#cd2c1e",
       "packs": [
         "aventuras",
-        "regras"
+        "regras",
+        "tabelas"
       ],
       "folders": [
         {
@@ -121,5 +133,6 @@
   },
   "url": "https://github.com/jadilsonjose13-hash/aventuras-dnd-4e",
   "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/aventuras-dnd-4e/refs/heads/main/module.json",
-  "download": "https://github.com/jadilsonjose13-hash/aventuras-dnd-4e/archive/refs/heads/main.zip"
+  "download": "https://github.com/jadilsonjose13-hash/aventuras-dnd-4e/archive/refs/heads/main.zip",
+  "description": ""
 }
