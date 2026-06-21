@@ -1,7 +1,7 @@
 {
   "id": "aventuras-dnd-4e",
   "title": "Aventuras D&D 4e",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -11,6 +11,14 @@
       "name": "Jadilson Santos",
       "email": "jadilsonjose13@gmail.com",
       "discord": "png_man",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "thumbnail": "modules/aventuras-dnd-4e/imagens/thumb-modulo.png",
+      "loop": false,
       "flags": {}
     }
   ],
